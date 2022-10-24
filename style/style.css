@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+/*========================================================================
+Top Header Area.....
+=========================================================================*/
+#top_header_area{
+    background: #ba2e1f;
+    height: 51px;
+    position: relative;
+    overflow: auto;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*============
+Mini Menu.....
+=============*/
+
+
+.mini_menu{
+    width: 60%;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.mini_menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mini_menu ul li{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.mini_menu ul li::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    width: 1px;
+    height: 12px;
+    top: 4px;
+    right: -10px;
+
+}
+
+.mini_menu ul li:last-child::after{
+    display: none;
+}
+
+
+.mini_menu ul li a{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+/*==============
+Search Area.....
+===============*/
+
+.search_area{
+    width: 30%;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding: 0.5%;
+    border-radius: 25px;
+    background-color: #ffffff;
+    height: 25px;
+}
+
+
+.search_area input{
+    border: none;
+    margin: 0px;
+    float: left;
+}
+
+input[type="text"]{
+    width: 75%;
+
+}
+
+input[type="submit"]{
+    width: 25%;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #ffffff;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+/*========================================================================
+Main Header Area.....
+=========================================================================*/
+
+.main_header{
+    height: 96px;
+    position: relative;
+    background-color: green;
+}
+/*==========
+ref: max-width> .container
+============*/
+
+
+.main_header_area{
+    height: 96px;
+   /* background: #ba2e1f; */
+}
+
+/*==========
+Logo
+============*/
+
+.logo{
+    width: 40%;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+
+.logo img{
+    position: absolute;
+    bottom: 0px;
+}
+
+/*==========
+Social
+============*/
+
+.social{
+    width: 40%;
+    position: absolute;
+    right: 20px;
+    bottom: 3px;
+}
+
+
+.social ul{
+    list-style: none;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+.social ul li{
+    display: inline-block;
+}
+
+.social ul li a{
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 50%;
+}
+
+.social ul li a.fa-linkedin-in:hover{
+    background-color: #0072b1;
+}
+
+.social ul li a.fa-twitter:hover{
+    background-color: #00acee;
+}
+
+.social ul li a.fa-pinterest:hover{
+    background-color: #c8232c;
+}
+
+.social ul li a.fa-google-plus-g:hover{
+    background-color: #db4a39;
+}
+
+.social ul li a.fa-rss:hover{
+    background-color: #ee802f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============================
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+#top_header_area{
+    background: #ba2e1f;
+    height: 51px;
+    position: relative;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mini_menu{
+    float: left;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(0%, -50%);
+}
+
+.mini_menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mini_menu ul li{
+    float: left;
+}
+
+.mini_menu ul li a{
+    color: #ffffff;
+}
+
+.search_area{
+    width: 30%;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding: 0.5%;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.search_area::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.search_area input{
+    border: none;
+    margin: 0px;
+    float: left;
+}
+
+input[type="text"]{
+    width: 75%;
+
+}
+
+input[type="submit"]{
+    width: 25%;
+    background-image: url("../img/systematic.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #ffffff;
+}
+=====================================*/

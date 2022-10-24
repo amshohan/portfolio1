@@ -1,0 +1,122 @@
+/*=================================================================
+Common Css
+===================================================================*/
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*=================================================================
+Top Header Css
+===================================================================*/
+.header_area{
+    width: 100%;
+    clear: both;
+}
+
+#top_header_area{
+    background-color: #ba2e1f;
+    width: 100%;
+    padding: 12PX 0px;
+    height: 51px;
+}
+
+.inner_top_header{
+overflow: hidden;
+position: absolute;
+}
+
+.mini_menu{
+    float: left;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mini_menu ul{
+list-style: none;
+text-align: left;
+padding: 0px;
+margin: 0px;
+}
+
+.mini_menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.mini_menu ul li::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 12px;
+    width: 1px;
+    top: 5px;
+    right: -10px;
+}
+
+.mini_menu ul li:last-child::after{
+    display: none;
+}
+
+.mini_menu ul li a{
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+}
+
+.mini_menu ul li a:hover{
+    color: #dddddd
+}
+
+.search_area{
+    float: right;
+    width: 30%;
+   /* height: 25px;*/
+}
+
+.search_area form{
+    float: right;
+    max-width: 210px;
+    width: 100%;
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 2%;
+}
+
+
+.search_area input{
+   width: 75%;
+   border: none;
+   padding: 1%;
+   float: left;
+   color: #000;
+}
+
+.search_area input[type="submit"]{
+    width: 25%;
+    background-image: url("../img/systematic.png");
+    background-repeat: no-repeat;
+    background-position: right;
+ }
