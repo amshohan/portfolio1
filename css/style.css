@@ -324,8 +324,17 @@ Drop Down
     background-color: rgb(255, 0, 195);
 }
 
-
-
+/*---------------------------------------------------
+Slier //link a rel na bosiye akdin onk perai porsilam..
+-----------------------------------------------------*/
+.slider_area{
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+.inner_slider{
+    margin: 10px 20px 0px;
+}
 
 
 
