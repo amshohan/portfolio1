@@ -428,6 +428,10 @@ Work Area
     overflow: hidden;
 }
 
+/*---------------------------------------------------
+Work Area > 3 section
+-----------------------------------------------------*/
+
 .child{
     width: 31%;
     float: left;
@@ -446,6 +450,16 @@ Work Area
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.about a, .services a, .feedback a{
+    color: #b92d1f;
+    float: right;
+    text-decoration: none;
+}
+
+/*---------------------------------------------------
+Work Area > About
+-----------------------------------------------------*/
+
 .about img{
     width: 100%;
     border: 4px solid #f2f2f2;
@@ -453,14 +467,17 @@ Work Area
     outline: 1px solid #dfdfdf;
 }
 
-.about *:not(h2){
+.about *:not(h2){   /* woooooooooooooooooooooow*/
     color: #878787;
 }
 
-.about a, .services a{
-    color: #b92d1f;
-    float: right;
-    text-decoration: none;
+/*---------------------------------------------------
+Work Area > Service
+-----------------------------------------------------*/
+
+.ser_clild{
+    margin-bottom: 30px;
+    line-height: 1.055;
 }
 
 .ser_clild img{
@@ -479,9 +496,13 @@ Work Area
     color: #878787;
 }
 
-.ser_clild{
-    margin-bottom: 30px;
-    line-height: 1.055;
+/*---------------------------------------------------
+Work Area > Feedback
+-----------------------------------------------------*/
+
+.feed_child{
+    margin-bottom: 20px;
+    overflow: auto;
 }
 
 .feed_child div > img{
@@ -498,18 +519,30 @@ Work Area
 }
 .feed_child_div{
     overflow: auto;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     position: relative;
 }
 
-.feed_child{
-    margin-bottom: 20px;
+
+
+.feedback{
+    overflow: auto;
+}
+
+.feedback div{
+    color: #878787;
+    line-height: 1.11;
+}
+
+.feedback div p{
+    font-size: 14px;
+
 }
 
 
-
-
-
+/*---------------------------------------------------
+Last
+-----------------------------------------------------*/
 
 
 
