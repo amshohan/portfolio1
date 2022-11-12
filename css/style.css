@@ -100,7 +100,7 @@ input[type="text"]{
 
 }
 
-input[type="submit"]{
+.search_area input[type="submit"]{
     width: 25%;
     background-image: url("../img/search.png");
     background-repeat: no-repeat;
@@ -420,14 +420,18 @@ Work Area
 }
 .work_container{
     margin:  0px 20px;
+    overflow: hidden;
 }
+/*
 .work{
     max-width: 960px;
     width: 100%;
     margin-right: 20px;
-    overflow: hidden;
-}
 
+    
+     aituku lage nah... duita div diyei center + dui pashe margin ana jai
+}
+*/
 /*---------------------------------------------------
 Work Area > 3 section
 -----------------------------------------------------*/
@@ -467,7 +471,7 @@ Work Area > About
     outline: 1px solid #dfdfdf;
 }
 
-.about *:not(h2){   /* woooooooooooooooooooooow*/
+.about *:not(h2, a){   /* woooooooooooooooooooooow*/
     color: #878787;
 }
 
@@ -477,7 +481,7 @@ Work Area > Service
 
 .ser_clild{
     margin-bottom: 30px;
-    line-height: 1.055;
+    line-height: 1.07;
 }
 
 .ser_clild img{
@@ -539,13 +543,20 @@ Work Area > Feedback
 
 }
 
-
 /*---------------------------------------------------
 Last
 -----------------------------------------------------*/
+.last{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: hsla(201, 100%, 35%, 0.534);
+}
 
-
-
+.last_margin{
+    margin: 0px 20px;
+    background-color: hsla(0, 0%, 53%, 0.452);
+}
 
 
 
