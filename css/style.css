@@ -3,6 +3,8 @@
 }
 
 body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666666;
     margin: 0px;
 }
 /*========================================================================
@@ -556,6 +558,47 @@ Last
 .last_margin{
     margin: 0px 20px;
     background-color: hsla(0, 0%, 53%, 0.452);
+    overflow: hidden;
+}
+
+.last_child{
+    width: 21.875%;
+    float: left;
+    border-top: 1px solid #666666;
+    margin: 30px 4.167% 0px 0px;
+}
+.last_child:last-child{
+    margin: 30px 0px 0px 0px;
+}
+
+
+.last_child{
+    font-size: 14px;
+}
+
+.last_child h4{
+    margin: 20px 0 33px 0px;
+    font-size: 16px;
+}
+
+
+.last_child span{
+    color: #b92d1f;
+}
+
+.link ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.link li{
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px 0px 8px 0px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #666666;
 }
 
 
