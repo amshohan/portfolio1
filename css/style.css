@@ -87,30 +87,33 @@ Search Area.....
     padding: 0.5%;
     border-radius: 25px;
     background-color: #ffffff;
-    height: 25px;
+    height: 30px;
 }
 
 
 .search_area input{
     border: none;
-    margin: 0px;
+    margin: 0px 1%;
     float: left;
+    height: 20px;
+    outline: 1px solid #ffffff;
+    
 }
 
-input[type="text"]{
-    width: 75%;
+.search_area input[type="text"]{
+    width: 88%;
 
 }
 
 .search_area input[type="submit"]{
-    width: 25%;
+    width: 8%;
     background-image: url("../img/search.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-color: #ffffff;
 }
 
-input[type="submit"]:hover{
+.search_area input[type="submit"]:hover{
     cursor: pointer;
 }
 
